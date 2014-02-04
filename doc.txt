@@ -1,0 +1,26 @@
+Kadecot Snap Serverについて。
+
+KadecotCoreの現在の最新版は、JSONP APIとは別に
+Snap!というプログラミング環境と連携するためのサーバ,およびブロックを内包しています。
+
+Snap!の公式サイトは以下です
+http://snap.berkeley.edu/
+
+Snap!とKadecotの連携方法です。
+まずKadecot上で、Snap!Serverを有効にします。(現在はJSONPと同時に有効/無効が変わります)
+// ここに有向/無効の方法の画像
+
+Kadecotからブロック定義をダウンロードします。
+ブロック定義には、KadecotのIPアドレス、およびポート番号が含まれており、
+Android端末のIPアドレスが変更される度にブロック定義をダウンロードしなおす必要があります。
+ブロックのURLは
+http://{kadecot_ip_address}:31414/block です。
+// ここにFirefoxのやりかたとかの画像
+
+Snapからブロックをインポートします。(左上のメニューから可能です)
+// ここに画像
+
+Snap上で、kadecot_list,kadecot_get,kadecot_setのブロックが見えたならば、成功です。
+
+// TODO ブロックの使い方について書く。
+(書き途中)
